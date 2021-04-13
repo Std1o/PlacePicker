@@ -24,6 +24,13 @@ dependencies {
 }
 ```
 
+Step 3. 1.) Add api key from Google Cloud Platform with enabled "Maps SDK for Android" and "Places Api" (required for the enabled search bar) to your AndroidManifest.xml file:
+```Xml
+<meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="YOUR_API_KEY" />
+```
+
 #### Java
 
 ```Java
