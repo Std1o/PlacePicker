@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Intent intent = new PlacePicker.IntentBuilder()
-                .setGoogleMapApiKey("AIzaSyBBPHUjkr9HB4xvIN3-T-CuYAsanBgLA7E")
+                .setGoogleMapApiKey("YOUR_API_KEY")
                 .setLatLong(18.520430, 73.856743)
                 .setMapZoom(19.0f)
                 .showSearchBar(false)
