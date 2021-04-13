@@ -1,4 +1,4 @@
-# KPlacePicker
+# PlacePicker
 
 ## Download
 
