@@ -1,5 +1,7 @@
 # PlacePicker
 
+Made on the basis of https://github.com/AkashG58/AKPlacePicker, which uses for location search the Google Places API, which is paid. If billing is not enabled, the search just will not work, and the toolbar with search will only irritate. In this version, you can remove search bar.
+
 ## Download
 
 How to
