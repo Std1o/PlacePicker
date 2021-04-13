@@ -30,6 +30,7 @@ dependencies {
 Intent intent = new PlacePicker.IntentBuilder()
                 .setGoogleMapApiKey("Your API Key")
                 .setLatLong(18.520430, 73.856743)
+                .showSearchBar(false) //default is true
                 .setMapZoom(19.0f)
                 .setAddressRequired(true)
                 .setPrimaryTextColor(R.color.black)
