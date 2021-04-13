@@ -1,4 +1,6 @@
-# KPlacePicker
+# PlacePicker
+
+Made on the basis of https://github.com/AkashG58/AKPlacePicker, which uses for place search the Google Places API, which is paid. If billing is not enabled, the search just will not work, and the toolbar with search will only irritate. In this version, you can remove search bar.
 
 ## Download
 
@@ -28,6 +30,7 @@ dependencies {
 Intent intent = new PlacePicker.IntentBuilder()
                 .setGoogleMapApiKey("Your API Key")
                 .setLatLong(18.520430, 73.856743)
+                .showSearchBar(false) //default is true
                 .setMapZoom(19.0f)
                 .setAddressRequired(true)
                 .setPrimaryTextColor(R.color.black)
